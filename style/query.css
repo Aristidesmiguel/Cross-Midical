@@ -1,0 +1,491 @@
+@media screen and (min-width: 360px) and (max-width:481px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    ul{
+        margin-left: -40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    .btn1{
+        align-self: center;
+        margin-left: 20px;
+     }
+     #mae{
+        display: flex;
+        flex-direction: column;
+     }
+     #secao4{
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+     }
+     #secao5{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     .esq{
+        margin-top: 80px;
+     }
+     .final{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    img#logo3{
+        width: 150px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+    }
+    img#doc{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        height: 500px
+    }
+    img#logo2{
+        width: 205px;
+        height: 255px;
+    }
+    #clin{
+        text-align: center;
+        margin-bottom: -10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    h2{
+        text-align: center;
+        color: var(--cor1);
+        font-weight: bold;
+        
+    }
+    .planta{
+        max-width:900px;
+        display: flex;
+        flex-wrap: nowrap;  
+        flex-direction: column;
+        
+    }
+    #ce{
+        text-align: center;
+    }
+    .content{
+        width: 300px;
+        height: 300px;
+        border: 1px solid #0b8998;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    }
+    .server2{
+      text-align: left;
+    }
+    
+    .bolas{
+        width: 70px;
+        height: 70px;
+        background-color: var(--cor1);
+        line-height: 70px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        border-radius: 50%;
+    }
+    .extra{
+        background-color: #0b8998;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .extra p{
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20px;
+        max-width: 70%;
+    }
+    #sass{
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+       border: 0.9px solid white;
+       padding: 10px;
+       width: 70%;
+    }
+    .card{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .card-filho{
+        cursor: pointer;
+        margin: 10px;
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        transition-duration: .5s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.288);
+        padding: 10px;
+    }
+    .card-filho:hover{
+        transform:translateX(15px);
+        background-color: var(--cor1);
+        color: white;
+    }
+    #ib{
+        text-align: center;
+        margin-left: -90px;
+    }
+    #secoa2 h2{
+        margin-left: -90px;
+    }
+    #secoa2{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .server{
+        margin-left: 100px;   
+    }
+    img#ceta1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(360deg);
+        transition-duration: .5s;
+    }
+    img#ceta{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(180deg);
+        transition-duration: .5s;
+    }
+
+}
+@media screen and (min-width: 481px) and (max-width:768px){
+     .btn1{
+        align-self: center;
+        margin-left: 20px;
+     }
+     #mae{
+        display: flex;
+        flex-direction: column;
+     }
+     #secao4{
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+     }
+     #secao5{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     .esq{
+        margin-top: 80px;
+     }
+     .final{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    img#logo3{
+        width: 150px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+    }
+    img#doc{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        height: 500px
+    }
+    img#logo2{
+        width: 205px;
+        height: 255px;
+    }
+    #clin{
+        text-align: center;
+        margin-bottom: -10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    h2{
+        text-align: center;
+        color: var(--cor1);
+        font-weight: bold;
+        
+    }
+    .planta{
+        max-width:900px;
+        display: flex;
+        flex-wrap: nowrap;  
+        flex-direction: column;
+        
+    }
+    #ce{
+        text-align: center;
+    }
+    .content{
+        width: 300px;
+        height: 300px;
+        border: 1px solid #0b8998;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    }
+    .server2{
+      text-align: left;
+    }
+    
+    .bolas{
+        width: 70px;
+        height: 70px;
+        background-color: var(--cor1);
+        line-height: 70px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        border-radius: 50%;
+    }
+    .extra{
+        background-color: #0b8998;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .extra p{
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20px;
+        max-width: 70%;
+    }
+    #sass{
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+       border: 0.9px solid white;
+       padding: 10px;
+       width: 70%;
+    }
+    .card{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .card-filho{
+        cursor: pointer;
+        margin: 10px;
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        transition-duration: .5s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.288);
+        padding: 10px;
+    }
+    .card-filho:hover{
+        transform: scale(1.1);
+        background-color: var(--cor1);
+        color: white;
+    }
+    #secoa2 h2{
+        margin-left: -90px;
+    }
+    #secoa2{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .server{
+        margin-left: 100px;   
+    }
+    img#ceta1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(360deg);
+        transition-duration: .5s;
+    }
+    img#ceta{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(180deg);
+        transition-duration: .5s;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    img#logo3{
+        width: 150px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        
+    
+    }
+    img#doc{
+        width: 400px;
+        height: 700px;
+    }
+    img#logo2{
+        width: 205px;
+        height: 255px;
+    }
+    #clin{
+        margin-bottom: -10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    h2{
+        color: var(--cor1);
+        font-weight: bold;
+        
+    }/*s2*/
+    #secoa2 h2, p#ib{
+        text-align: center;
+    }
+    #secoa2{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+       
+    }
+    .server{
+        margin-left: 100px;   
+    }
+    #secoa2 img#ceta{
+        margin-left: 290px;  
+    }
+    img#ceta1{
+        
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(360deg);
+        transition-duration: .5s;
+    }
+    img#ceta{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(180deg);
+        transition-duration: .5s;
+    }
+    #ceta:hover{
+    
+        transform: scale(1.2) rotatey(180deg);
+    }
+    #ceta1:hover{
+        transform: scale(1.1);
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .card-filho:hover{
+        transform: scale(1.1) translatey(15px);
+        background-color: var(--cor1);
+        color: white;
+    }
+    /*s3*/
+    .planta{
+        max-width: 850px;
+        display: flex;
+        flex-wrap: nowrap;  
+        
+    }
+    #ce{
+        text-align: center;
+    }
+ }
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    #secao3{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .planta{
+        max-width: 990px;
+        display: flex;
+        flex-wrap: nowrap;  
+        
+    }
+    .content{
+       border: 1px solid var(--cor1);
+    }
+
+    .bolas{
+        width: 70px;
+        height: 70px;
+        background-color: var(--cor1);
+        line-height: 70px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        border-radius: 50%;
+    }
+}
+
