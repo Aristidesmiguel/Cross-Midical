@@ -326,7 +326,7 @@ a#casa{
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241, 0.7);
     padding: 10px;
 }
 .final-filho{
@@ -365,4 +365,67 @@ i#mesmo:hover{
     border-radius: 40%;
     color: white;
 }
-
+#forme{  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   
+    padding: 20px;
+   
+    height: 400px;
+}
+.divs_input{
+    display: flex;
+    margin-bottom: 15px;
+   
+}
+.divs_input input{
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 260px;
+    padding: 10px;
+    border: 2px solid gray;
+   
+}
+.divs_input input:hover {
+    border: 2px solid #0b8998;
+}
+.divs_input input::placeholder{
+     color: gray;
+}
+#print{
+    
+    margin-right: 15px;
+}
+textarea#caixa::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+textarea#caixa{
+    outline: none;
+    padding: 10px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+textarea#caixa:hover{
+    border: 2px solid #0b8998;
+}
+input#btn_input{
+    width: 200px;
+    padding: 10px;
+    background-color: var(--cor1);
+    border: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+input#btn_input:hover{
+    background-color: #0b7885;
+}
+.titulo h2{
+    margin-left: 480px;
+}
