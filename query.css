@@ -36,6 +36,7 @@
      }
      #secao5{
         margin-top: 50px;
+        
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -198,12 +199,42 @@
     #direita{
         margin-left: 10px;
     }
+    #forme{  
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        padding: 20px;
+       
+        height: 400px;
+        margin-bottom: 90px;
+    }
+    .divs_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+    .divs_input input{
+        margin-bottom: 10px;
+    }
+    textarea#caixa{
+        width: 250px;
+        height: 200px;
+    }
+    input#btn_input{
+        margin-left: 40px;
+    }
+  
 }
 @media screen and (min-width: 481px) and (max-width:768px){
      .btn1{
         align-self: center;
         margin-left: 20px;
      }
+     
      #mae{
         display: flex;
         flex-direction: column;
@@ -371,6 +402,34 @@
         transform: rotatey(180deg);
         transition-duration: .5s;
     }
+    #forme{  
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        padding: 20px;
+       
+        height: 400px;
+        margin-bottom: 90px;
+    }
+    .divs_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+    .divs_input input{
+        margin-bottom: 10px;
+    }
+    textarea#caixa{
+        width: 250px;
+        height: 200px;
+    }
+    input#btn_input{
+        margin-left: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px){
@@ -465,6 +524,35 @@
     #ce{
         text-align: center;
     }
+    #forme{  
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        padding: 20px;
+       
+        height: 400px;
+        margin-bottom: 90px;
+    }
+    .divs_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+    .divs_input input{
+        margin-bottom: 10px;
+    }
+    textarea#caixa{
+        width: 250px;
+        height: 200px;
+    }
+    input#btn_input{
+        margin-left: 40px;
+    }
+
  }
 @media screen and (min-width: 1024px) and (max-width:1200px) {
     #secao3{
@@ -493,6 +581,37 @@
         font-size: 25px;
         color: white;
         border-radius: 50%;
+    }
+    #forme{  
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        padding: 20px;
+       
+        height: 400px;
+        margin-bottom: 90px;
+    }
+    .divs_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+    .divs_input input{
+        margin-bottom: 10px;
+    }
+    textarea#caixa{
+        width: 250px;
+        height: 200px;
+    }
+    input#btn_input{
+        margin-left: 40px;
+    }
+    .titulo h2{
+        text-align: center;
     }
 }
 
