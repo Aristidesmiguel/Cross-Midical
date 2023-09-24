@@ -1,3 +1,254 @@
+@media screen and (min-width: 280px) and (max-width:359px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .der{
+        text-align: center;
+    }
+    #direita{
+        text-align: center;
+    }
+    .final-sobrinho{
+        display: flex;
+        flex-direction: column;
+    }
+    #conpy{
+        display: none;
+    }
+    #preto_branco{
+        
+        margin-left: 85px;
+    }
+    ul{
+        
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-self: center;
+        
+        font-size: 1.1rem;
+    }
+    .btn1{
+        align-self: center;
+        margin-left: 20px;
+     }
+     #mae{
+        display: flex;
+        flex-direction: column;
+     }
+     #secao4 h1{
+        margin-left: 90px;
+     }
+     #secao4{
+        display: flex;
+        flex-direction: column;justify-content: center;
+        align-items: center;
+      
+     }
+     #secao5{
+        margin-top: 50px;
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     .esq{
+        margin-top: 80px;
+        text-align: center;
+     }
+     .esq-filho{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     .final{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    img#logo3{
+        width: 150px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+    }
+    img#doc{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        height: 500px
+    }
+    img#logo2{
+        width: 205px;
+        height: 255px;
+    }
+    #clin{
+        text-align: center;
+        margin-bottom: -10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+    }
+    h2{
+        text-align: center;
+        color: var(--cor1);
+        font-weight: bold;
+        
+    }
+    .planta{
+        max-width:900px;
+        display: flex;
+        flex-wrap: nowrap;  
+        flex-direction: column;
+        
+    }
+    #ce{
+        text-align: center;
+    }
+    .content{
+        width: 200px;
+        height: 300px;
+        border: 1px solid #0b8998;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    }
+    .server2{
+      text-align: center;
+    }
+    
+    .bolas{
+        width: 70px;
+        height: 70px;
+        background-color: var(--cor1);
+        line-height: 70px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        border-radius: 50%;
+    }
+    .extra{
+        background-color: #0b8998;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .extra p{
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 20px;
+        max-width: 70%;
+    }
+    #sass{
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+       border: 0.9px solid white;
+       padding: 10px;
+       width: 70%;
+    }
+    .card{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .card-filho{
+        cursor: pointer;
+        margin: 10px;
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        transition-duration: .5s;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.288);
+        padding: 10px;
+    }
+    .card-filho:hover{
+        transform:translateX(15px);
+        background-color: var(--cor1);
+        color: white;
+    }
+    #ib{
+        text-align: center;
+        margin-left: -90px;
+    }
+    #secoa2 h2{
+        margin-left: -90px;
+    }
+    #secoa2{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .server{
+        margin-left: 100px;   
+    }
+    img#ceta1{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(360deg);
+        transition-duration: .5s;
+    }
+    img#ceta{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transform: rotatey(180deg);
+        transition-duration: .5s;
+    }
+    #direita{
+        margin-left: 10px;
+    }
+    #forme{  
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        padding: 20px;
+       
+        height: 400px;
+        margin-bottom: 90px;
+    }
+    .divs_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+    .divs_input input{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    textarea#caixa{
+        width: 150px;
+        height: 200px;
+    }
+    input#btn_input{
+        margin-left: 10px;
+        width: 150px;
+    }
+}
 @media screen and (min-width: 360px) and (max-width:481px){
     nav{
         display: flex;
@@ -44,7 +295,13 @@
      }
      .esq{
         margin-top: 80px;
+        text-align: center;
      }
+     .esq-filho{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
      .final{
         display: flex;
         justify-content: center;
@@ -221,7 +478,7 @@
         margin-bottom: 10px;
     }
     textarea#caixa{
-        width: 250px;
+        width: 254px;
         height: 200px;
     }
     input#btn_input{
@@ -254,7 +511,13 @@
      }
      .esq{
         margin-top: 80px;
+        text-align: center;
      }
+     .esq-filho{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
      .final{
         display: flex;
         justify-content: center;
@@ -424,7 +687,7 @@
         margin-bottom: 10px;
     }
     textarea#caixa{
-        width: 250px;
+        width: 254px;
         height: 200px;
     }
     input#btn_input{
@@ -546,7 +809,7 @@
         margin-bottom: 10px;
     }
     textarea#caixa{
-        width: 250px;
+        width: 254px;
         height: 200px;
     }
     input#btn_input{
@@ -604,7 +867,7 @@
         margin-bottom: 10px;
     }
     textarea#caixa{
-        width: 250px;
+        width: 254px;
         height: 200px;
     }
     input#btn_input{
